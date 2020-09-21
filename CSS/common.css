@@ -1,0 +1,97 @@
+/* common.css */
+
+/*'Noto Sans KR', sans-serif  'Roboto', sans-serif*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Roboto:wght@300;400;500&display=swap');
+/*font-family: 'Cinzel', serif, 'Poppins', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 본문내에서 가장 많이 나오는 글자 크기에 맞추도록! */
+html,
+body {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif, 'Noto Sans KR', sans-serif;
+  letter-spacing: -0.2px;
+  color: #333;
+  cursor: default;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+table,
+tr,
+th,
+td {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif, 'Noto Sans KR', sans-serif;
+  letter-spacing: -0.2px;
+  color: #333;
+  word-spacing: -1px;
+  border-collapse: collapse;
+  cursor: default;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+  font-weight: normal;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img,
+fieldset,
+frameset,
+iframe {
+  border: none;
+}
+input,
+select,
+option,
+textarea,
+button {
+  border: none;
+  background: transparent;
+  border-radius: 0;
+  outline: none;
+}
+a,
+img,
+label {
+  display: block;
+}
+legend,
+hr,
+caption {
+  display: none;
+}
+em,
+i,
+address {
+  font-style: normal;
+}
+b,
+strong {
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.skip,
+.blind {
+  display: block;
+  height: 0;
+  overflow: hidden;
+
+  position: absolute;
+  top: -6000px;
+}

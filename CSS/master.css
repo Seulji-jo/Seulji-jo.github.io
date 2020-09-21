@@ -1,0 +1,109 @@
+/* master.css */
+#wrap {
+  width: 86%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  overflow: hidden;
+}
+#image {
+  width: 50%;
+  height: 100%;
+  float: right;
+  background: url(../images/joseulji.jpg) no-repeat 50% 90%;
+  background-size: cover;
+}
+#about {
+  width: 50%;
+}
+#aboutme {
+  margin-top: 24%;
+}
+#job {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 8px;
+}
+#name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 64px;
+  color: #333;
+  font-weight: 700;
+}
+#profile {
+  margin-top: 6%;
+  margin-left: 58%;
+}
+#profile > ul > li {
+  margin-bottom: 10px;
+}
+#profile > ul > li:last-child {
+  margin-bottom: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.subj {
+  font-size: 13px;
+  color: #999;
+  margin-right: 15px;
+}
+#content {
+  margin-top: 48px;
+}
+#experience,
+#skills {
+  margin-top: 54px;
+}
+.title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.cont_li {
+  font-size: 13px;
+  overflow: hidden;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.date {
+  color: #999;
+  float: left;
+  width: 118px;
+  margin-right: 18px;
+}
+.cont_info {
+  float: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+  margin-top: -1px;
+}
+.skill_li {
+  margin-top: 24px;
+  float: left;
+  margin-right: 40px;
+}
+.pic {
+  width: 68px;
+  height: 68px;
+}
+#html {
+  background: url(../images/html.png) no-repeat;
+}
+#css {
+  background: url(../images/css.png) no-repeat;
+}
+#js {
+  background: url(../images/js.png) no-repeat;
+}
+#photoshop {
+  background: url(../images/photoshop.png) no-repeat;
+}
+#illustrator {
+  background: url(../images/illustrator.png) no-repeat;
+}
+.skill_name {
+  margin-top: 22px;
+  text-align: center;
+  font-weight: 500;
+}
